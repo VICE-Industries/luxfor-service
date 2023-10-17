@@ -9,4 +9,6 @@ RUN pipenv install --system --deploy
 
 CMD python3 /main.py
 
+EXPOSE 80/tcp
+
 LABEL "org.opencontainers.image.vendor"="23 Technologies GmbH"

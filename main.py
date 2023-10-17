@@ -84,7 +84,7 @@ def main():
     config = uvicorn.Config(
         "main:app",
         host="0.0.0.0",
-        port=8080,
+        port=80,
         log_level="debug",
         proxy_headers=True,
         forwarded_allow_ips=["*"],
