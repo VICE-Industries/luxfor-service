@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-fastapi = "==0.111.1"
+fastapi = "==0.112.2"
 pyusb = "==1.2.1"
 uvicorn = {version = "==0.30.3", extras = ["standard"]}
 
